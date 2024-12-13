@@ -1,0 +1,17 @@
+.message-icon-wrapper {
+  width: 80px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: black;
+  position: relative;
+  left: 75%;
+  top: 28px;
+}
+.message-icon-wrapper .message-icon {
+  color: #0fffc7;
+  font-size: 30px;
+  display: flex;
+  margin: 5px auto 0;
+  position: relative;
+  top: 10px;
+}

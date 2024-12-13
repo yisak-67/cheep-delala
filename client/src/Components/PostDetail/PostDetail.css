@@ -1,0 +1,115 @@
+a {
+  text-decoration: none;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+.post-detail-info {
+  display: flex;
+  margin: 110px 120px 0 350px;
+}
+.post-detail-imgs {
+  width: 50%;
+}
+.post-detail-sideinfo {
+  width: 50%;
+}
+img.col-4 {
+  padding: 0 1%;
+  object-fit: cover;
+}
+img.col {
+  padding: 0 1%;
+  border-radius: 5%;
+}
+.post-detail-row {
+  display: flex;
+  width: 100%;
+  margin: 2% 1%;
+}
+
+.post-detail-sideinfo {
+  padding-left: 4%;
+}
+.post-detail-sideinfo h1 {
+  color: #444;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 51.2px;
+  padding-top: 30px;
+}
+.post-detail-sideinfo h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  padding-top: 28px;
+}
+.post-detail-sideinfo h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  padding-top: 30px;
+}
+.post-detail-sideinfo p {
+  color: #3a444c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.send-message-btn {
+  /* background-color: #f04343; */
+  color: black;
+  font-weight: 500;
+  width: 180px;
+  height: 64px;
+  border-radius: 16px;
+  text-align: center;
+  margin-top: 100px;
+  border: 2px solid #262626;
+}
+.send-message-btn:hover {
+  background-color: #262626;
+  color: #f5f5f5;
+}
+.send-message-btn .btn-txt {
+  font-size: 20px;
+  position: relative;
+  top: 16px;
+  right: 5px;
+}
+.post-detail-soical-medias {
+  margin-top: 30px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.post-detail-soical-medias .social-links {
+  font-size: 30px;
+}
+
+/* Suggestion */
+
+.suggestion {
+  margin-left: 350px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+.suggestion h1 {
+  padding-bottom: 50px;
+}
+.suggestion-row {
+  display: flex;
+  flex-wrap: wrap;
+  --bs-gutter-x: 0;
+}
+
+/* Parameters */
+.parameters-expanded {
+  border-top: 1px solid #00000030;
+  margin: 5% 10%;
+}
+.parameters-collapsed {
+  display: none;
+}

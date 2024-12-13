@@ -1,0 +1,52 @@
+.profile {
+  background-color: white;
+}
+.profile-container {
+  background-color: #91eacc;
+  margin-top: 59px;
+  margin-bottom: 60px;
+  width: 100%;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 30px 0 12px 350px;
+  padding: 0;
+}
+.profile-name {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 0 350px;
+}
+.profile-username {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(72, 68, 68);
+  margin: 12px 0 0 350px;
+  text-align: left;
+}
+.profile-username span {
+  color: rgb(17, 16, 16);
+}
+.profile-statuses {
+  display: flex;
+  margin: 50px 0 0 350px;
+}
+
+/* photo uploader  */
+
+.profile-photo {
+  display: flex;
+}
+.photo-uploader {
+  position: relative;
+  top: 130px;
+  left: 20px;
+}
+.photo-uploader label {
+  font-size: 20px;
+  font-weight: 500;
+}

@@ -1,0 +1,57 @@
+.message-list-card {
+  display: flex;
+  padding: 20px 5px 20px 40px;
+  width: 100%;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.433);
+}
+.message-list-card div {
+  /* border-bottom: 1px solid rgba(56, 56, 56, 0.433); */
+
+  width: 100%;
+}
+.message-list-card:hover {
+  background-color: rgba(202, 202, 202, 0.38);
+}
+
+.message-list-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto 0;
+}
+
+.message-list-card h2 {
+  font-size: 20px;
+  margin: auto 0;
+  padding-left: 10px;
+}
+.message-list-card p {
+  font-size: 12px;
+  margin: auto 0;
+  margin-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1100px) {
+  .message-list {
+    /* background-color: red; */
+    width: 100px;
+  }
+  .message-list-card h2 {
+    display: none;
+  }
+  .message-list-card p {
+    display: none;
+  }
+  .message-list-card {
+    background-color: #fff;
+    padding-left: 15px;
+    margin: 0 auto;
+  }
+  .message-list-card img {
+    width: 70px;
+    height: 70px;
+  }
+}

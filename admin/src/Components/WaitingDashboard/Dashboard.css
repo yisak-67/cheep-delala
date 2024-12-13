@@ -1,0 +1,79 @@
+body {
+  background-color: #bedcf8;
+}
+.dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.post-request {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.poster {
+  flex: 0.3;
+  font-weight: bold;
+  margin-left: 20px;
+  text-align: left;
+}
+.dashboard .title {
+  flex: 0.3;
+  font-weight: bold;
+  margin-left: 20px;
+  text-align: left;
+}
+.dashboard .time {
+  flex: 0.4;
+  margin-right: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+.dashboard .bold {
+  font-weight: bold;
+  font-size: 16px;
+}
+.dashboard .purpose {
+  background-color: hsl(210, 50%, 70%);
+  padding: 2px 7px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.actions {
+  flex: 0.4;
+  text-align: center;
+  /* padding-right: 50px; */
+}
+.actions button {
+  flex: 0.15;
+  margin-left: 10px;
+  text-align: right;
+  border-radius: 4px;
+  border: 0;
+}
+.actions > .approve {
+  background-color: #0c0;
+}
+.actions > .reject {
+  background-color: #ff6b6b;
+}
+.dashboard .poster img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10%;
+}
+a {
+  text-decoration: none;
+}
+.post-list-header {
+  margin: 30px 0;
+}

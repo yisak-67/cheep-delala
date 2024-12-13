@@ -1,0 +1,54 @@
+* {
+  text-decoration: none;
+}
+.miniprofile {
+  margin-top: 20px;
+  position: absolute;
+  bottom: 100px;
+  left: 40px;
+}
+.miniprofile-img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #0fffc7;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+.miniprofile-img img {
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  margin: 15%;
+  border: 0;
+}
+.miniprofile h1 {
+  color: white;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.miniprofile p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  color: rgb(164, 164, 164);
+  margin: 0;
+  text-align: center;
+}
+.sidebar-sign-up {
+  background-color: #0c0;
+  padding: 5px;
+  position: absolute;
+  bottom: 100px;
+  left: 45px;
+  height: 30px;
+  width: 160px;
+  border-radius: 5px;
+}
+.sidebar-sign-up > p {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 auto;
+}

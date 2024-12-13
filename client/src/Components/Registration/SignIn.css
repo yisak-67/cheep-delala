@@ -1,0 +1,61 @@
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./backgroudimg.jpg");
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Adjust the color and opacity as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 10px;
+}
+
+.signin h2 {
+  color: rgb(235, 235, 235);
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin-left: 40px;
+}
+.signin {
+  height: 400px;
+  width: 50%;
+
+  position: relative;
+  text-align: center;
+  backdrop-filter: blur(11px);
+  background-color: rgba(189, 244, 209, 0.4);
+  border-radius: 15px;
+}
+.sign-in-input {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.com-btn:hover {
+  background-color: #5793d2;
+  color: white;
+}
+.com-btn {
+  background-color: rgb(245, 251, 249);
+  width: 150px;
+  border-radius: 30px;
+  color: black;
+  margin-left: 69px;
+}
+.back-to-register {
+  color: white;
+  margin-top: 10px;
+  margin-left: 250px;
+  font-size: small;
+}
+.back-to-register:hover {
+  color: aqua;
+}

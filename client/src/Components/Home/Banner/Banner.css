@@ -1,0 +1,29 @@
+.banner {
+  color: #fff;
+  object-fit: contain;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.banner_contents {
+  margin-left: 260px;
+  padding-top: 350px;
+  height: 190px;
+}
+.banner-h1 {
+  color: #d2ebe0;
+}
+.banner_contents .banner_title {
+  font-size: 4rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.3);
+  -webkit-text-stroke: 2px #6dfddd;
+  padding-bottom: 0.3rem;
+}
+.banner_description {
+  width: 45rem;
+  line-height: 1.5;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  max-width: 700px;
+  height: 80px;
+}

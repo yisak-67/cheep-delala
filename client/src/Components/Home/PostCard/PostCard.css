@@ -1,0 +1,108 @@
+.cardContainer {
+  margin: 2%;
+  background-color: black;
+  width: 250px;
+  height: 410px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.cardContainer:hover {
+  box-shadow: 2px 2px 2px 2px rgb(191, 185, 185);
+  cursor: pointer;
+}
+
+.cardContainer .photoContainer img {
+  width: 250px;
+  height: 205px;
+}
+.cardContainer .forwhat {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: -200px;
+  margin-left: 160px;
+  width: 80px;
+  height: 25px;
+  background-color: rgba(79, 76, 76, 0.356);
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.cardContainer .formore {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: 5px;
+  margin-left: -240px;
+  width: 80px;
+  height: 25px;
+  background-color: rgba(63, 63, 63, 0.227);
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.cardContainer .formore:hover {
+  box-shadow: 2px 2px 2px 2px rgb(91, 91, 91);
+}
+.cardContainer .forwhat:hover {
+  box-shadow: 2px 2px 2px 2px rgb(91, 91, 91);
+}
+.cardContainer .Price {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: -40px;
+  margin-left: 20px;
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.cardContainer .dataContainer {
+  margin-top: -30px;
+  width: 250px;
+  height: 205px;
+  background-color: rgb(216, 212, 220);
+  align-content: center;
+}
+.cardContainer .dataContainer .houseTitle .firstTitle {
+  color: rgb(41, 40, 39);
+  font-weight: 500;
+  font-family: cursive;
+  text-align: center;
+}
+.firstTitle {
+  margin-bottom: 15px;
+}
+.cardContainer .dataContainer img {
+  width: 20px;
+  height: 20px;
+}
+.cardContainer .dataContainerSeparated {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  margin-top: 8px;
+  margin-left: 15px;
+  gap: 10px;
+  width: 250px;
+}
+
+.cardContainer .dataContainerSeparated p {
+  font-size: 12px;
+  color: rgb(64, 61, 61);
+}
+
+.cardContainer .datafooter {
+  background-color: rgb(206, 209, 212);
+  height: 50px;
+  margin-left: 0px;
+}
+.cardContainer .datafooter img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 3px;
+  margin-top: -10px;
+}

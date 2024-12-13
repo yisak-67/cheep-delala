@@ -1,0 +1,22 @@
+.user-input input {
+  width: 250px;
+  height: 45px;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.8)
+  );
+  border: 1px solid rgb(25, 206, 206);
+  border-radius: 5px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+.user-input input::placeholder {
+  color: gray;
+  font-style: italic;
+  text-align: center;
+}

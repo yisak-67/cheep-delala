@@ -1,0 +1,26 @@
+.suggestion-title {
+  background-color: rgb(0, 0, 0, 0.5);
+  color: #f5f5f5;
+  position: relative;
+  bottom: 40px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.suggestion-title p {
+  position: relative;
+  top: 10px;
+  padding-left: 10px;
+}
+.suggestion-title .nxt-btn {
+  position: relative;
+  bottom: 0px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #f5f5f5;
+}
+.suggestion-img {
+  width: 300px;
+  padding: 0 0 10px 0;
+  margin: 10px 30px 20px 0;
+}

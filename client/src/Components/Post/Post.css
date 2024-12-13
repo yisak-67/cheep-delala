@@ -1,0 +1,271 @@
+#one {
+  margin-top: 100px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.it .btn-orange {
+  background-color: transparent;
+  border-color: #777 !important;
+  color: #777;
+  text-align: left;
+  width: 100%;
+}
+.it input.form-control {
+  height: 54px;
+  border: none;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: none;
+  width: 500px;
+}
+.it .form-control:focus {
+  border-color: #ff4d0d;
+  box-shadow: none;
+  outline: none;
+}
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.it .btn-new,
+.it .btn-next {
+  margin: 30px 0px;
+  border-radius: 0px;
+  background-color: #333;
+  color: #f5f5f5;
+  font-size: 16px;
+  width: 155px;
+}
+.it .btn-next {
+  background-color: #ff4d0d;
+  color: #fff;
+}
+.it .btn-check {
+  cursor: pointer;
+  line-height: 54px;
+  background-color: red;
+}
+.it .uploadDoc {
+  margin-bottom: 20px;
+}
+.it .uploadDoc {
+  margin-bottom: 20px;
+}
+.it .btn-orange img {
+  width: 30px;
+}
+p {
+  font-size: 16px;
+  text-align: center;
+  margin: 30px 0px;
+}
+.it #uploader .docErr {
+  position: absolute;
+  right: auto;
+  left: 10px;
+  top: -56px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #fff;
+  color: red;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.it #uploader .docErr:after {
+  content: "\f0d7";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 50px;
+  color: #fff;
+  position: absolute;
+  left: 30px;
+  bottom: -40px;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.backgroundPost1 {
+  position: absolute;
+  margin-top: 200px;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(100, 186, 179);
+  border-radius: 30% 70% 70% 30% / 33% 30% 70% 67%;
+  z-index: -1;
+}
+
+.backgroundPost2 {
+  position: absolute;
+  margin-top: 200px;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(100, 186, 179);
+  border-radius: 30% 70% 70% 30% / 33% 30% 70% 67%;
+  z-index: -1;
+}
+
+.backgroundPost3 {
+  position: absolute;
+  margin-top: 200px;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(100, 186, 179);
+  border-radius: 30% 70% 70% 30% / 33% 30% 70% 67%;
+  z-index: -1;
+}
+.backgroundPost4 {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 500px;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(70, 226, 112);
+  border-radius: 30% 70% 70% 30% / 56% 61% 39% 44%;
+  z-index: -1;
+}
+
+.backgroundPost5 {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 73%;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(62, 197, 145);
+  border-radius: 76% 24% 35% 65% / 56% 61% 39% 44%;
+  z-index: 1;
+}
+
+.backgroundPost {
+  position: fixed;
+  margin-top: 13%;
+  margin-left: 58%;
+
+  z-index: 1;
+}
+
+.container {
+  background-color: white;
+}
+
+.checkbox-wrapper-4 * {
+  box-sizing: border-box;
+}
+.checkbox-wrapper-4 .cbx {
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+.checkbox-wrapper-4 .cbx:not(:last-child) {
+  margin-right: 6px;
+}
+.checkbox-wrapper-4 .cbx:hover {
+  background: rgba(0, 119, 255, 0.06);
+}
+.checkbox-wrapper-4 .cbx span {
+  float: left;
+  vertical-align: middle;
+  transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper-4 .cbx span:first-child {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  transform: scale(1);
+  border: 1px solid #cccfdb;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 1px rgba(0, 16, 75, 0.05);
+}
+.checkbox-wrapper-4 .cbx span:first-child svg {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 16px;
+  stroke-dashoffset: 16px;
+  transition: all 0.3s ease;
+  transition-delay: 0.1s;
+  transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper-4 .cbx span:last-child {
+  padding-left: 8px;
+  line-height: 18px;
+}
+.checkbox-wrapper-4 .cbx:hover span:first-child {
+  border-color: #07f;
+}
+.checkbox-wrapper-4 .inp-cbx {
+  position: absolute;
+  visibility: hidden;
+}
+.checkbox-wrapper-4 .inp-cbx:checked + .cbx span:first-child {
+  background: #07f;
+  border-color: #07f;
+  animation: wave-4 0.4s ease;
+}
+.checkbox-wrapper-4 .inp-cbx:checked + .cbx span:first-child svg {
+  stroke-dashoffset: 0;
+}
+.checkbox-wrapper-4 .inline-svg {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  user-select: none;
+}
+@media screen and (max-width: 640px) {
+  .checkbox-wrapper-4 .cbx {
+    width: 100%;
+    display: inline-block;
+  }
+}
+@-moz-keyframes wave-4 {
+  50% {
+    transform: scale(0.9);
+  }
+}
+@-webkit-keyframes wave-4 {
+  50% {
+    transform: scale(0.9);
+  }
+}
+@-o-keyframes wave-4 {
+  50% {
+    transform: scale(0.9);
+  }
+}
+@keyframes wave-4 {
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+.closeBtn {
+  position: absolute;
+  margin-left: 40%;
+  color: red;
+}
+.upload-img {
+  text-decoration: none;
+}

@@ -1,0 +1,113 @@
+.message-profile-name {
+  background-color: #fff;
+  padding: 10px 50px 50px 50px;
+  margin-top: 30px;
+  text-align: left;
+  height: 80px;
+}
+.message-profile-name h1 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 24px;
+}
+.message-profile-name p {
+  font-size: 16px;
+  margin: 0;
+  text-align: left;
+}
+.messages {
+  padding-right: 50px;
+  position: relative;
+  right: 0;
+  height: 88%;
+  /* border: 1px solid rgba(10, 3, 3, 0.359); */
+  background-color: #eee;
+  /* background-image: url("https://www.transparenttextures.com/patterns/cutcube.png"); */
+}
+.message-chat-panel {
+  height: 81%;
+  overflow-y: scroll;
+  padding-top: 20px;
+}
+.message-chat-text-area {
+  background-color: #fff;
+  position: absolute;
+  display: inline-block;
+  bottom: 30px;
+  width: 90%;
+  margin: 0 5%;
+  border-radius: 30px;
+}
+.message-chat-text-area textarea {
+  position: relative;
+  resize: none;
+  width: 75%;
+  margin: 10px 3% 0px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  overflow-y: scroll;
+  padding-top: 10px;
+}
+.message-chat-text-area button {
+  position: absolute;
+  right: 5%;
+  top: 8px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* message list */
+.message-page {
+  display: flex;
+  margin-top: 80px;
+}
+.msg-collapsed {
+  transition: 300ms;
+}
+.msg-expanded {
+  margin-left: 250px;
+  transition: 550ms;
+}
+.message-page-container,
+.msg-unselected {
+  width: 60%;
+  flex-grow: 1;
+}
+.message-list {
+  background-color: #fff;
+  height: 84vh;
+  width: 30%;
+  margin-top: 30px;
+  overflow-y: scroll;
+}
+.message-list::-webkit-scrollbar {
+  display: visible;
+}
+
+@media screen and (max-width: 900px) {
+  /* .message-list {
+    width: 10%;
+  } */
+}
+
+.msg-unselected {
+  /* background-color: red; */
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.msg-unselected > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.msg-unselected > div > p {
+  background-color: rgba(218, 218, 218, 0.537);
+  border-radius: 24px;
+  padding: 2px 20px 5px;
+  font-size: 24px;
+  text-align: center;
+}
