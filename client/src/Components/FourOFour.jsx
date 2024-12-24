@@ -7,6 +7,7 @@ function FourOFour() {
       <p>Can't access Cheep Delala</p>
     </div>
   );
+  
 }
 
 export default FourOFour;
