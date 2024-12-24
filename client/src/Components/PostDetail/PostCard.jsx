@@ -8,6 +8,7 @@ function PostCard(props) {
     <div className="suggestion-img ">
       <img src={props.url} alt="" />
       <div className="suggestion-title">
+        
         <p>{props.title}</p>
         <Link className="nxt-btn">
           <CiCircleChevRight />
