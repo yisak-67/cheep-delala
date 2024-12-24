@@ -5,6 +5,7 @@ function SavedItems() {
     <div className="SavedItems">
       <h1 className="temp">Saved Items</h1>
     </div>
+    
   );
 }
 
