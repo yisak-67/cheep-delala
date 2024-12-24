@@ -13,6 +13,7 @@ function Home() {
   function handleClick(buttonId) {
     setActiveButton(buttonId);
   }
+  
 
   useEffect(() => {
     fetchPosts();
