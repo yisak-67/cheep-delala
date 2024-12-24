@@ -17,6 +17,8 @@ function ProfileAndName() {
       <p>SIGN UP</p>
     </Link>
   ) : (
+
+    
     <div className="miniprofile">
       <Link to={`/profiledetail/${id}`}>
         <div className="miniprofile-img">
