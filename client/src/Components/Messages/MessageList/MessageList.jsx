@@ -16,6 +16,8 @@ function MessageList(props) {
     fetchPosts();
   }, []);
 
+
+  
   async function fetchPosts() {
     try {
       const response = await axios.get(
