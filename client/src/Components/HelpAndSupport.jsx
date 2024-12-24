@@ -5,6 +5,7 @@ function HelpAndSupports() {
     <div className="HelpAndSupports">
       <h1 className="temp">Help And Supports</h1>
     </div>
+    
   );
 }
 
